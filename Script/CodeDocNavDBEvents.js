@@ -54,6 +54,13 @@ class CNavDataEvents
 		// - App Manager
 		this.NavItems.Add("App", "HTML/AppManager/AppManagerTables.html");
 
+		// - CVR
+		this.NavItems.Add("Shared", "HTML/CVRManager/Facility.html");
+		this.NavItems.Add("Visit", "HTML/CVRManager/CVVisit.html");
+
+		// - DataDetail
+		this.NavItems.Add("DataDetail", "HTML/DataDetail/DataDetailTables.html");
+
 		// - DataTransform
 		this.NavItems.Add("Process", "HTML/DataTransform/ProcessTables.html");
 		this.NavItems.Add("TaskSource", "HTML/DataTransform/TaskSourceTables.html");
@@ -85,9 +92,5 @@ class CNavDataEvents
 		this.NavItems.Add("Main", "HTML/View/ViewDataTables.html");
 		this.NavItems.Add("Join", "HTML/View/ViewJoin.html");
 		this.NavItems.Add("Grid", "HTML/View/ViewGridTables.html");
-
-		// - CVR
-		this.NavItems.Add("Shared", "HTML/CVRManager/Facility.html");
-		this.NavItems.Add("Visit", "HTML/CVRManager/CVVisit.html");
 	}
 }
